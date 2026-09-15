@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0F0F0F;
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Montserrat', 'Oswald', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Glowing shadows & accents matching Hadda Burger brand */
+.glow-orange {
+  box-shadow: 0 0 35px -5px rgba(249, 115, 22, 0.45);
+}
+
+.glow-amber {
+  box-shadow: 0 0 35px -5px rgba(234, 179, 8, 0.35);
+}
+
+.glow-ring {
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
+}
+
+.glow-badge {
+  box-shadow: 0 0 15px rgba(234, 179, 8, 0.4);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F97316;
+}

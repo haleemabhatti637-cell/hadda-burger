@@ -1,0 +1,6 @@
+{
+  "name": "Hadda Burger",
+  "description": "Official website for Hadda Burger in Temple Terrace, FL. Gourmet smash burgers, loaded fries, artisanal sides, and online ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
